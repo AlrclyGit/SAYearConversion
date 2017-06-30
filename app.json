@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/year"
+  ],
+
+  "window": {
+    "navigationBarBackgroundColor": "#1AAD19"
+  }
+}

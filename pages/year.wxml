@@ -1,0 +1,35 @@
+<view class="body">
+
+  <form bindsubmit="formSubmitgy">
+    <view class="operation">
+      <text class="satext">公元：</text>
+      <input class="sainput" name="gongyuan" type="number" placeholder-class="sainput" />
+      <text class="sayear">年</text>
+      <button class="sabutton" size="mini" formType="submit">换算成“民国年”</button>
+    </view>
+  </form>
+
+    <form bindsubmit="formSubmitmg">
+    <view class="operation">
+      <text class="satext">民国：</text>
+      <input class="sainput" name="gongyuan" type="number" placeholder-class="sainput" />
+      <text class="sayear">年</text>
+      <button class="sabutton" size="mini" formType="submit">换算成“公元年”</button>
+    </view>
+  </form>
+
+  <view wx:if="{{pd1}}" class="mgnclass">公元<text class="numbercolor">{{sr}}</text>年 = 民国<text class="numbercolor">{{sc}}</text>年</view>
+  <view wx:if="{{pd2}}" class="mgnclass">民国<text class="numbercolor">{{sr}}</text>年 = 公元<text class="numbercolor">{{sc}}</text>年</view>
+  <view wx:if="{{pd3}}" class="mgnclass">公元<text class="numbercolor">{{sr}}</text>年 = 民国前<text class="numbercolor">{{sc}}</text>年</view>
+  <view wx:if="{{pd4}}" class="mgnclass">民国前<text class="numbercolor">{{sr}}</text>年 = 公元<text class="numbercolor">{{sc}}</text>年</view>
+  <view wx:if="{{pd4}}" class="mgnclass">民国前<text class="numbercolor">{{sr}}</text>年 = 公元<text class="numbercolor">{{sc}}</text>年</view>
+  <view wx:if="{{pd5}}" class="mgnclass">请输入合理年份</view>
+
+  <view class="hr"></view>
+
+  <text class="title">关于民国年份介绍</text>
+  <text class="sap">1911年，孙中山领导的革命党人于武昌起义，推翻清朝帝制。同年12月29日在南京召开临时大总统选举大会，孙中山当选为中华民国临时大总统。1912年元旦正式就职，通电各省，颁订国号为中华民国，并且不再使用帝制的年号，以黄帝纪元4609年11月13日（1912年1月1日）为中华民国元年元旦，并改用阳历。中华民国成立前的纪年可用民国前。以公元1912年中华民国成立为元年，与公元纪年相差1911年，月、日、置闰则同公历。</text>
+
+</view>
+
+

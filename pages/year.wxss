@@ -1,0 +1,69 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.operation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80rpx;
+  padding: 0 20px;
+}
+
+.satext {
+  width: 120rpx;
+}
+
+.sainput {
+  width: 180rpx;
+  border: solid 1px #ebebeb;
+  text-align: center;
+}
+
+.sayear {
+  width: 60rpx;
+}
+
+.sabutton {
+  width: 300rpx;
+  color: #FFF;
+  background-color: #1AAD19;
+}
+
+.mgnclass {
+  margin: 80rpx 20px 0px 20px;
+  padding: 30rpx 40rpx;
+  border: 1px solid #f3d9b5;
+  background: #fffbf7;
+}
+
+.numbercolor {
+  padding: 0 5px;
+  color: #ff8b00;
+  font-weight: bold;
+}
+
+.hr {
+  height: 1px;
+  background-color: #ebebeb;
+  margin-top: 80rpx;
+}
+
+.title{
+  color: #338bfc;
+  margin-left: 70rpx;
+  margin-top: 16rpx;
+  text-align: left;
+}
+
+.sap{
+  color: #666666;
+  font-size: 14px;
+  margin-left: 70rpx;
+  margin-right: 70rpx;
+  text-align: left;
+  text-indent:28px;
+  line-height: 25px;
+}
